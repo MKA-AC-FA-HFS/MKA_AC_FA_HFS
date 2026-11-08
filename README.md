@@ -159,34 +159,6 @@ outputs/
 
 Notebook juga membuat file **`spaceship_titanic_outputs.zip`** di folder utama proyek. Arsip ini berisi seluruh isi folder `outputs/`.
 
-## Mengirim submission ke Kaggle
-
-Setelah semua cell selesai dijalankan, unggah file ini secara manual pada halaman kompetisi Spaceship Titanic:
-
-```text
-outputs/submission.csv
-```
-
-Pastikan jumlah baris dan kolom submission sudah sesuai dengan `sample_submission.csv`.
-
-## GitHub dan kolaborasi kelompok
-
-Untuk menghubungkan folder lokal ke GitHub, gunakan Source Control di VS Code atau Git di terminal:
-
-```powershell
-git init
-git add README.md requirements.txt .gitignore
-```
-
-Untuk menambahkan notebook dan data, jalankan:
-
-```powershell
-git add Spaceship_Titanic_VSCode_Evaluasi_Lengkap.ipynb data/
-```
-
-Lanjutkan dengan commit dan push melalui Source Control atau perintah Git. Setelah perubahan lokal di-commit dan di-push, repository GitHub akan berisi versi terbaru.
-
-Catatan `.gitignore` pada proyek ini mengecualikan folder `models/`, `outputs/`, dan arsip hasil supaya model terlatih serta file hasil eksperimen tidak otomatis masuk repository. Folder `data/` tidak di-ignore; pastikan pembagian dataset sesuai aturan kompetisi dan kesepakatan kelompok sebelum mengunggahnya.
 
 ## Catatan
 
