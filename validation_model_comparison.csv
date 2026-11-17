@@ -1,0 +1,5 @@
+Model,Validation Accuracy
+Hist Gradient Boosting,0.7929844738355377
+Random Forest,0.7918343875790684
+Logistic Regression,0.78205865439908
+Extra Trees,0.7809085681426107
